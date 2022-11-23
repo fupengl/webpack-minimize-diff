@@ -1,0 +1,38 @@
+{
+  "name": "webpack-minimize-diff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "diff": "node run-diff.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fupengl/webpack-minimize-diff.git"
+  },
+  "keywords": [],
+  "author": "fupengl fupenglxy@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fupengl/webpack-minimize-diff/issues"
+  },
+  "homepage": "https://github.com/fupengl/webpack-minimize-diff#readme",
+  "dependencies": {
+    "esbuild": "^0.15.15",
+    "fs-extra": "^10.1.0",
+    "memfs": "^3.4.12",
+    "webpack": "^5.63.0",
+    "terser-webpack-plugin": "^5.3.6",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@babel/preset-env": "^7.20.2",
+    "typescript": "4.9.3",
+    "babel-loader": "^8.2.2",
+    "@babel/core": "^7.14.3",
+    "prettier": "2.7.1",
+    "core-js": "3.26.1",
+    "jquery": "^3.6.0",
+    "swiper": "^6.7.5"
+  }
+}
